@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.navbar {
+
+    background-color: black;
+}
+
+.navbar .navbar-id {
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.collapse .navbar-nav .nav-link {
+    color: beige;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.collapse .navbar-nav .nav-link:hover {
+    color: #b28634;
+}
+
+.collapse .navbar-nav .nav-link {
+    margin-left: 100px;
+}
+
+.heading-sec h5 {
+    color: beige;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.heading-sec h2 {
+    color: beige;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.heading-sec h3 {
+    color: beige;
+    font-size: 30px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #c2bb86, #fa1212);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading-sec p {
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer h6 {
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer i {
+    color: #a1a1a1;
+    font-size: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.footer p i {
+    color: #a1a1a1;
+    margin-top: 30px;
+    opacity: 20;
+    font-size: 12px;
+}
+
+.about-sec {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-sec h1 {
+    color: beige;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.about-sec p {
+    color: beige;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+
+.about-sec table tbody span {
+    color: rgb(18, 166, 252);
+}
+
+.about-sec td {
+    color: beige;
+}
+
+.project-sec h1 {
+    color: beige;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 8px;
+}
+
+.project-sec h2 {
+    color: beige;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 100px;
+}
+
+.project-sec h6 {
+    color: beige;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.project-sec p {
+    color: beige;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.contact-sec h1 {
+    color: beige;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.contact-sec .form-sec form {
+    margin-top: 50px;
+}
+
+.contact-sec .form-sec form .form-control {
+    margin-bottom: 20px;
+}
+
+.contact-sec .form-sec form input {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.contact-sec .form-sec form input:focus {
+    border: 5px solid beige;
+}
+
+.contact-sec .form-sec form input::placeholder {
+    color: #a1a1a1;
+}
+
+.contact-sec .form-sec form textarea {
+    background-color: transparent;
+    height: 200px;
+
+}
+
+.contact-sec .form-sec form textarea::placeholder {
+    color: #a1a1a1;
+}
+
+.contact-sec .form-sec form textarea:focus {
+    border: 5px solid beige;
+}
+
+.contact-sec .form-sec form button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #efe48c, #d18c3d);
+    border-radius: 20px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+
+@media (max-width: 992px) {
+    .navbar .navbar-nav .nav-link {
+      margin-left: 30px;
+    }
+  
+    .heading-sec img {
+      width: 100%;
+      margin-top: 20px !important;
+    }
+  
+    .about-sec img {
+      width: 100%;
+      margin: 20px 0 0 0 !important;
+      padding-bottom: 0;
+    }
+  
+    .img img {
+      width: 100%;
+      margin: 20px 0 0 0 !important;
+      padding-bottom: 0;
+    }
+  
+    .heading-sec {
+      text-align: center;
+    }
+  
+    .project-sec img {
+      width: 100%;
+      margin: 20px 0 0 0 !important;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar .navbar-nav .nav-link {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .heading-sec h2,
+    .heading-sec h3 {
+      font-size: 30px;
+    }
+  
+    .about-sec h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .about-sec p {
+      text-align: center;
+    }
+  
+    .project-sec h1 {
+      font-size: 35px;
+      text-align: center;
+    }
+  
+    .project-sec h6,
+    .project-sec p {
+      text-align: center;
+    }
+  
+    .contact-sec h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .form-sec form button {
+      font-size: 16px;
+    }
+  
+    .heading-sec img,
+    .about-sec img,
+    .project-sec img {
+      width: 100%;
+      height: auto;
+      margin: 20px auto 0;
+      display: block;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .heading-sec h2 {
+      font-size: 24px;
+    }
+  
+    .heading-sec h3 {
+      font-size: 20px;
+    }
+  
+    .about-sec h1,
+    .project-sec h1,
+    .contact-sec h1 {
+      font-size: 30px;
+    }
+  
+    .navbar .navbar-id {
+      font-size: 18px;
+    }
+  }
+  
